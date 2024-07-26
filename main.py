@@ -49,6 +49,10 @@ def getCharacterChalSize(charDict:dict):
     return amounts
 
 
+def printAmount(amontList):
+    for amount in amontList:
+        print(amount)
+
 #challenges = getChallenges()
 #
 #graph = constructCharacterGraph([x for x in challenges])
@@ -62,7 +66,10 @@ def getCharacterChalSize(charDict:dict):
 # A Dictionary of characters that shows which challenges get completed if a character is played
 challenge_Dictionary = makeDict(testChallenges)
 
-#sortedAmounts = sorted(getCharacterChalSize(challenge_Dictionary), reverse=True, key=lambda x: x[1])
+#for key in sorted(challenge_Dictionary.keys()):
+#    print(Apex_Legends_Characters[key], [[Apex_Legends_Characters[y] for y in x] for x in challenge_Dictionary.get(key)])
 
-for amount in getCharacterChalSize(challenge_Dictionary):
-    print(amount)
+sortedAmounts = sorted(getCharacterChalSize(challenge_Dictionary), reverse=True, key=lambda x: x[1])
+
+printAmount(sortedAmounts)
+#printAmount(getCharacterChalSize(challenge_Dictionary))
