@@ -1,0 +1,46 @@
+0. Alter 
+1. Ash
+2. Ballistic
+3. Bangalore
+4. Bloodhound
+5. Catalyst
+6. Caustic
+7. Conduit
+8. Crypto
+9. Fuse
+10. Gibraltar
+11. Horizon
+12. Lifeline
+13. Loba
+14. Mad Maggie
+15. Mirage
+16. Newcastle
+17. Octane
+18. Pathfinder
+19. Rampart
+20. Revenant
+21. Seer
+22. Valkyrie
+23. Vantage
+24. Wattson
+25. Wraith
+
+
+
+[18,22,8]
+[3,5,15]
+[15,25,23]
+[3,1,19]
+[22,25,9]
+[10,13,14]
+[25,24,11]
+[18,1,2]
+[8,9,10]
+[2,4,13]
+[18,16,14]
+[22,10,13]
+[11,16,12]
+[25,17,20]
+[8,11,4]
+[10,17,7]
+[18,5,21]
